@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Video Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎥 My Shocking CCTV Video Portal</h1>
+  </header>
+
+  <!-- Top ad placeholder: paste your ad code (Adsterra, etc.) inside this div -->
+  <div id="ad-top" class="ad-slot">
+    <!-- Paste top ad script here -->
+  </div>
+
+  <main>
+    <div id="player-container">
+      <!-- Video: muted initially to improve autoplay success on browsers -->
+      <video id="videoPlayer" controls autoplay muted playsinline></video>
+
+      <!-- tiny overlay controls for user convenience -->
+      <div id="player-overlay">
+        <button id="unmuteBtn" title="Unmute / Mute">Unmute 🔊</button>
+        <div id="share-link">
+          <input id="shareInput" readonly />
+          <button id="copyBtn">Copy Link</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Bottom ad placeholder -->
+  <div id="ad-bottom" class="ad-slot">
+    <!-- Paste bottom ad script here -->
+  </div>
+
+  <footer>
+    <small>Shareable links: <code>?v=1</code>, <code>?v=2</code>, etc.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
