@@ -1,5 +1,15 @@
 [
-  { "id": 1, "url": "https://cdn.jsdelivr.net/gh/abdulrehman/video-portal@main/videos/video1.mp4" },
-  { "id": 2, "url": "https://cdn.jsdelivr.net/gh/abdulrehman/video-portal@main/videos/video2.mp4" },
-  { "id": 3, "url": "https://cdn.jsdelivr.net/gh/abdulrehman/video-portal@main/videos/video3.mp4" }
+  {
+    "id": 1,
+    "url": "https://cdn.jsdelivr.net/gh/abdulsince2008/themad-slibraries@main/videos/video1.mp4"
+  },
+  {
+    "id": 2,
+    "url": "https://cdn.jsdelivr.net/gh/abdulsince2008/themad-slibraries@main/videos/clip2.mp4"
+  },
+  {
+    "id": 3,
+    "url": "https://cdn.jsdelivr.net/gh/abdulsince2008/themad-slibraries@main/videos/clip3.mp4"
+  }
 ]
+
